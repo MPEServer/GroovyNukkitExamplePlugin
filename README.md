@@ -1,7 +1,7 @@
 # GroovyNukkitExamplePlugin
 Nukkit plugin example (Groovy)
 
-###How to use:
+### How to use:
 - Install [LibLoader](https://github.com/MPEServer/LibLoader)
 - Download [Groovy Jar](https://mvnrepository.com/artifact/org.codehaus.groovy/groovy-all)
 - Put it to libraries folder
@@ -9,7 +9,7 @@ Nukkit plugin example (Groovy)
 - Start Nukkit
 
 
-###Build plugin:
+### Build plugin:
 ```
 mvn clean package
 ```
