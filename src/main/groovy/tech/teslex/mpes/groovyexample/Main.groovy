@@ -6,7 +6,7 @@ class Main extends PluginBase {
 
 	@Override
 	void onEnable() {
-		getLogger().info("Yeee! I'm working!!")
+		logger.info("Yeee! I'm working!!")
 	}
 
 }

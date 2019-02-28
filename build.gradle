@@ -1,0 +1,26 @@
+plugins {
+	id 'java'
+	id 'groovy'
+}
+
+ext {
+	pluginVersion = '1.0'
+	groovyVersion = '2.5.6'
+
+	nukkitVersion = '1.0-SNAPSHOT'
+}
+
+group 'tech.teslex.mpes.groovyexample'
+version pluginVersion
+
+sourceCompatibility = 1.8
+
+repositories {
+	mavenCentral()
+	maven { url 'https://repo.nukkitx.com/main' }
+}
+
+dependencies {
+	compile "org.codehaus.groovy:groovy-all:$groovyVersion"
+	compile "cn.nukkit:nukkit:$nukkitVersion"
+}

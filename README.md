@@ -2,14 +2,12 @@
 Nukkit plugin example (Groovy)
 
 ### How to use:
-- Install [LibLoader](https://github.com/MPEServer/LibLoader)
-- Download [Groovy Jar](https://mvnrepository.com/artifact/org.codehaus.groovy/groovy-all)
-- Put it to libraries folder
-- Install this plugin
+- Install [**GroovyLib**](https://gitlab.com/PiSystem/GroovyLib)
+- Install plugin written on Groovy (like this)
 - Start Nukkit
 
 
-### Build plugin:
+### Compile plugin:
 ```
-mvn clean package
+gradle build
 ```
