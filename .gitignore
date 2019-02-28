@@ -2,6 +2,6 @@
 *iml
 
 /build/*
-!/build/lib/
+!/build/libs/
 .gradle/
 gradle/
