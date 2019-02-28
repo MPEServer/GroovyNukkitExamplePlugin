@@ -1,2 +1,7 @@
 .idea/
 *iml
+
+/build/*
+!/build/lib/
+.gradle/
+gradle/
